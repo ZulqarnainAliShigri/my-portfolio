@@ -12,6 +12,7 @@ import Certifications from './components/Certifications';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatsAppIcon from './components/WhatsAppIcon';
 import './styles/App.css';
 
 function App() {
@@ -85,6 +86,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <WhatsAppIcon />
     </div>
   );
 }
