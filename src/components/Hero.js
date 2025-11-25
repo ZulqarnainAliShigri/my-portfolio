@@ -19,6 +19,7 @@ const Hero = ({ currentPhrase }) => {
             <div className="h1">Hi, I'm <span className="accent">Zulqarnain</span></div>
             <p className="lead">A <span className="type">{currentPhrase}</span> building modern web experiences and AI solutions.</p>
            <div className="cta-row">
+<div className="cta-row">
   <div className="d-flex flex-column flex-sm-row gap-2">
     <a href="#projects" className="btn btn-primary-custom">View Projects</a>
     <div className="d-flex gap-2">
