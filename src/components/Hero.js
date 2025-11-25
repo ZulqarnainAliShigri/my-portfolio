@@ -18,11 +18,15 @@ const Hero = ({ currentPhrase }) => {
           <div className="hero-card">
             <div className="h1">Hi, I'm <span className="accent">Zulqarnain</span></div>
             <p className="lead">A <span className="type">{currentPhrase}</span> building modern web experiences and AI solutions.</p>
-            <div className="cta-row">
-              <a href="#projects" className="btn btn-primary-custom me-2">View Projects</a>
-              <a href="#contact" className="btn btn-ghost">Hire Me</a>
-              <button onClick={downloadCV} className="btn btn-ghost ms-2">Download CV</button>
-            </div>   </div>
+           <div className="cta-row">
+  <div className="d-flex flex-column flex-sm-row gap-2">
+    <a href="#projects" className="btn btn-primary-custom">View Projects</a>
+    <div className="d-flex gap-2">
+      <a href="#contact" className="btn btn-ghost flex-fill">Hire Me</a>
+      <button onClick={downloadCV} className="btn btn-ghost flex-fill">Download CV</button>
+    </div>
+  </div>
+</div>
 
           <aside className="profile-container">
             <img src="/images/profile-pic.png" alt="profile" className="profile" />
